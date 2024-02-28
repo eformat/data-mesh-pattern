@@ -319,7 +319,7 @@ To keep things cheap, I use a 200GB gp3 volume and configure the OpenShift LVM O
    oc annotate sc/odf-lvm-vgsno storageclass.kubernetes.io/is-default-class=true
    ```
 
-   OpenShift v4.12
+   OpenShift v4.12+
    ```bash
    oc annotate sc/lvms-vgsno storageclass.kubernetes.io/is-default-class=true
    ```
