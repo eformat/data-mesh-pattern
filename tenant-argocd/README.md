@@ -2,7 +2,7 @@
 
 See here for teaming models: 
 
-- https://github.com/redhat-cop/helm-charts/blob/master/charts/gitops-operator/TEAM_DOCS.md
+- https://github.com/redhat-cop/helm-charts/blob/main/charts/gitops-operator/TEAM_DOCS.md
 
 The rainforest repo is designed to be run using the `Platform ArgoCD, Namespaced ArgoCD per Team`. 
 

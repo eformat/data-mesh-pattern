@@ -41,7 +41,7 @@ ArgoCD is a gitops controller. We will use the OpenShift Gitops operator to depl
    helm repo add redhat-cop https://redhat-cop.github.io/helm-charts
    ```
 
-6. We configure the cluster scoped ArgoCD Operator so that we may create a privileged Team based ArgoCD instance. Ideally we want a less privileged instance that just controls our teams namespaces - but for now this will suffice. [Read more about aligning Teams and ArgoCD here.](https://github.com/redhat-cop/helm-charts/blob/master/charts/gitops-operator/TEAM_DOCS.md)
+6. We configure the cluster scoped ArgoCD Operator so that we may create a privileged Team based ArgoCD instance. Ideally we want a less privileged instance that just controls our teams namespaces - but for now this will suffice. [Read more about aligning Teams and ArgoCD here.](https://github.com/redhat-cop/helm-charts/blob/main/charts/gitops-operator/TEAM_DOCS.md)
 
     ```bash
     run()
